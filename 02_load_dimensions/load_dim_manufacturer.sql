@@ -1,0 +1,14 @@
+INSERT INTO Dim_Manufacturer (
+    Applicable_Manufacturer_or_Applicable_GPO_Making_Payment_ID,
+    Applicable_Manufacturer_or_Applicable_GPO_Making_Payment_Name,
+    Applicable_Manufacturer_or_Applicable_GPO_Making_Payment_State,
+    Applicable_Manufacturer_or_Applicable_GPO_Making_Payment_Country,
+    Submitting_Applicable_Manufacturer_or_Applicable_GPO_Name
+)
+SELECT DISTINCT
+    Applicable_Manufacturer_or_Applicable_GPO_Making_Payment_ID,
+    Applicable_Manufacturer_or_Applicable_GPO_Making_Payment_Name,
+    Applicable_Manufacturer_or_Applicable_GPO_Making_Payment_State,
+    Applicable_Manufacturer_or_Applicable_GPO_Making_Payment_Country,
+    Submitting_Applicable_Manufacturer_or_Applicable_GPO_Name
+FROM OP_DTL_GNRL_PGYR2024_P01232026;
