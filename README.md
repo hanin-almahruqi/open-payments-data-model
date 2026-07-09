@@ -19,6 +19,8 @@ This project builds a physical star schema data model using CMS Open Payments da
   - Dim_Third_Party
   - Dim_Date
   - Dim_Product
+ <img width="1739" height="830" alt="image" src="https://github.com/user-attachments/assets/da31b9c4-1c3f-40b7-83a8-e25b8866f008" />
+
 
 ## Steps
 1. Create schema
